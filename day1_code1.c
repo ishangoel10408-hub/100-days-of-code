@@ -1,4 +1,4 @@
-//Q1: Write a program to input two numbers and display their sum.
+// Q1: Write a program to input two numbers and display their sum.
 
 /*
 Sample Test Cases:
@@ -13,7 +13,9 @@ Output 2:
 Sum = 19
 
 */
-#include <stdio.h>
+
+
+#include<stdio.h>
 
 int main(){
     int a,b,c;
