@@ -7,7 +7,7 @@ int main()
 {
     int i, n;
     int arr[5] = {12, 56, 34, 26, 86};
-    int found = 0;
+    int f = 0;
 
     printf("Enter the Element: ");
     scanf("%d", &n);
@@ -17,12 +17,12 @@ int main()
         if (arr[i] == n)
         {
             printf("Element is found at index %d\n", i);
-            found = 1;
+            f = 1;
             break;
         }
     }
 
-    if (found == 0)
+    if (f == 0)
     {
         printf("Element is not matched\n");
     }
