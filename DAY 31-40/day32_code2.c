@@ -5,13 +5,13 @@
 
 int main() {
     int a[6] = {1, 2, 3, 2, 2, 4};
-    int count[10] = {0};
+    int count[6] = {0};
     int max = 0, ans;
 
     for(int i = 0; i < 6; i++)
         count[a[i]]++;
 
-    for(int i = 0; i < 10; i++) {
+    for(int i = 0; i < 6; i++) {
         if(count[i] > max) {
             max = count[i];
             ans = i;
