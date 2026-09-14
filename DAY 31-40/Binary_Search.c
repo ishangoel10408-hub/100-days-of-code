@@ -5,7 +5,8 @@
 
 int main()
 {
-    int a[5] = {10, 20, 30, 40, 50};
+
+    int a[5] = {8,11, 36, 54, 70, 80};
     int n = 5, x, low = 0, high = 4, mid;
 
     printf("Enter element: ");
