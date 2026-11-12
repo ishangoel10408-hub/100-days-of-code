@@ -14,12 +14,15 @@ struct Person {
 
 int main() {
     struct Person p;
+    int choice;
 
     printf("Enter name: ");
-    scanf("%s", p.name);
+    scanf("%49s", p.name);
 
     printf("Enter gender (0 for Male, 1 for Female): ");
-    scanf("%d", &p.gender);
+    scanf("%d", &choice);
+
+    p.gender = choice;
 
     printf("Name: %s\n", p.name);
 
